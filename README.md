@@ -31,7 +31,7 @@ This news app provides a user-friendly interface to browse and search for news a
 - HTML5
 - CSS3
 - JavaScript
-- News API
+- [News API](https://newsapi.org)
 
 <br/>
 
