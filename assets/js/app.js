@@ -38,7 +38,7 @@ const fetchNews = async (query) => {
     // console.log(data);
     bindData(data.articles);
   } catch (error) {
-    console.error("Error fetching news:", error);
+    console.log("Error fetching news:", error);
   }
 };
 
