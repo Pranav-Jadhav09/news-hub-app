@@ -1,12 +1,12 @@
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Pranav-Jadhav09/currency-converter-app)
+![GitHub repo size](https://img.shields.io/github/repo-size/Pranav-Jadhav09/news-hub-app)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Pranav_Jadhav09?style=social)](https://twitter.com/Pranav_Jadhav09)
 
-# Ne A
+# News Hub App
 
 This project is a simple news app that allows users to search for news articles based on keywords and view the latest news.<br />
-<a href="https://ns-hu-ap-site.onrender.com/"><strong>➥ Live Demo</strong></a>
+<a href="https://nes-hub-ap-site.onrender.com/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
