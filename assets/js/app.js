@@ -34,13 +34,19 @@ const reload = () => {
 const fetchNews = async (query) => {
   try {
     const result = await fetch(`${url}${query}&apikey=${apiKey}`);
+
+    if (!result.ok) {
+      throw new Error(`Network response was not ok: ${result.statusText}`);
+    }
+
     const data = await result.json();
-    // console.log(data);
+    console.log(data);
     bindData(data.articles);
   } catch (error) {
-    console.log("Error fetching news:", error);
+    console.error("Error fetching news:", error);
   }
 };
+
 
 //////////////////////
 // Bind Data function
