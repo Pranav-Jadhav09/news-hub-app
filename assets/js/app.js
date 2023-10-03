@@ -33,7 +33,7 @@ const reload = () => {
 // Async function to fetch news
 const fetchNews = async (query) => {
   try {
-    const result = fetch(`${url}${query}&apikey=${apiKey}`);
+    const result = await fetch(`${url}${query}&apikey=${apiKey}`);
     const data = await result.json();
     // console.log(data);
     bindData(data.articles);
