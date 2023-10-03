@@ -1,6 +1,6 @@
 "use strict";
 
-const apiKey = `1dd1b901c6c94851921ef21454e7c3ac`;
+const apiKey = '1dd1b901c6c94851921ef21454e7c3ac';
 const url = "https://newsapi.org/v2/everything?q=";
 
 // Call the function to load window
@@ -34,19 +34,13 @@ const reload = () => {
 const fetchNews = async (query) => {
   try {
     const result = await fetch(`${url}${query}&apikey=${apiKey}`);
-
-    if (!result.ok) {
-      throw new Error(`Network response was not ok: ${result.statusText}`);
-    }
-
     const data = await result.json();
-    console.log(data);
+    // console.log(data);
     bindData(data.articles);
   } catch (error) {
     console.error("Error fetching news:", error);
   }
 };
-
 
 //////////////////////
 // Bind Data function
