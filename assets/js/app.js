@@ -1,6 +1,6 @@
 "use strict";
 
-const apiKey = 'c5ef5ee64dbe4e81bdf6ca261d96aca0';
+const apiKey = '__Your_API_KEY__';
 const url = "https://newsapi.org/v2/everything?q=";
 
 // Call the function to load window
